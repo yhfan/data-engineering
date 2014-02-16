@@ -10,9 +10,9 @@ Here are the steps:
 4. Install the necessary ruby gems by typing `bundle install`.
 5. If you want to use the default databases, then you may skip step 6.
 6. If you want to use other databases, then you need to
-    a. modify `config/database.yml`,
-    b. run `bin/rake db:create:all` to create them, and
-    c. run `bin/rake db:migrate` to set up the schema.
+    1. modify `config/database.yml`,
+    2. run `bin/rake db:create:all` to create them, and
+    3. run `bin/rake db:migrate` to set up the schema.
 7. Start the server by typing `bin/rails s`.
 
 ## Usage
