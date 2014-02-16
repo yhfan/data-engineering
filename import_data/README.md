@@ -24,3 +24,10 @@ Here are the steps:
 4. If the data are imported successfully, a message showing the success and the gross revenue will be displayed at the top of the page.
 5. If an error is encountered, a generic error message will be displayed at the top of the page to indicate it.
 
+## Test Coverage
+Here are the steps:
+
+1. From the root directory of the application (`import_data/`), type `bin/rake`.
+2. You should see the tests being run.  All tests should pass.
+3. After the tests finish running, you can open the `coverage/index.html` file in your browser to see which parts of the code are covered by automated tests.
+
